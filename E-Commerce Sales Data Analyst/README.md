@@ -214,7 +214,7 @@ your local folder structure.
 -   **Internship Organization:** WeIntern Pvt. Ltd.
 -   **Internship Role:** Data Science Intern
 -   **Week:** Week 1
--   **GitHub Project:** Week1-E-Commerce-Sales-Analysis
+-   **GitHub Project:** [Week1-E-Commerce-Sales-Analysis](https://github.com/sharmiladasda/Week1-E-Commerce-Sales-Analysis)
 -   **Email:** sharmiladas.da@gmail.com
 
 ## 9. Notes and Limitations
