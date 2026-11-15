@@ -4,6 +4,7 @@
 **Week:** Week 1\
 **Project type:** Data cleaning, exploratory data analysis (EDA), sales
 analysis, and visualization
+**GitHub Profile:** https://github.com/sharmiladasda
 
 ## 1. Project Objective
 
@@ -52,8 +53,7 @@ cleaning output.
 -   `pandas` -- data loading, cleaning, transformation, and analysis
 -   `numpy` -- numerical operations
 -   `matplotlib` -- chart creation
--   `seaborn` -- statistical visualization (if used in the
-    notebook/script)
+-   `seaborn` -- statistical visualization 
 
 Power BI was used to build an interactive dashboard with KPI cards,
 charts, and slicers.
@@ -210,15 +210,12 @@ your local folder structure.
 
 ## 8. Author Details
 
--   **Name:** \[Your Full Name\]
+-   **Name:** Sharmila Das
 -   **Internship Organization:** WeIntern Pvt. Ltd.
 -   **Internship Role:** Data Science Intern
 -   **Week:** Week 1
--   **GitHub Profile:** \[Your GitHub URL\]
--   **Email:** \[Your Email Address\]
-
-Replace the placeholders above with your own details before submitting
-the project.
+-   **GitHub Project:** Week1-E-Commerce-Sales-Analysis
+-   **Email:** sharmiladas.da@gmail.com
 
 ## 9. Notes and Limitations
 
