@@ -1,0 +1,102 @@
+0, Info, 11/07/2026 23:51:36, 0C8PI8MG, E-Commerce Dataset Cleaning, Data_Cleaning.py, Data Cleaning Execution Started
+0, Info, 11/07/2026 23:51:46, 0C8PI8MG, E-Commerce Dataset Cleaning, Data_Cleaning.py, Dataset Shape: (50000, 11)
+0, Info, 11/07/2026 23:51:46, 0C8PI8MG, E-Commerce Dataset Cleaning, Data_Cleaning.py, First Five Records:
+    Order ID Customer ID          Product Name        Category  Quantity  \
+0  ORD100000   CUST08518  Bluetooth Headphones     Electronics       1.0   
+1  ORD100001   CUST05010              Yoga Mat          Sports       5.0   
+2  ORD100002         NaN             Face Wash          Beauty       3.0   
+3  ORD100003   CUST06901          Water Bottle  Home & Kitchen       5.0   
+4  ORD100004   CUST01428          Water Bottle  Home & Kitchen       3.0   
+
+   Unit Price  Total Amount  Order Date      Payment Mode Delivery Status  \
+0     1888.95       1888.95  2024-05-24            Wallet      Processing   
+1      878.90       4394.50  2025-12-23            Wallet       Delivered   
+2      199.00        597.00  2024-01-31       Net Banking       Cancelled   
+3      399.00       1995.00  2024-08-04       Net Banking       Cancelled   
+4      379.05       1137.15  2025-02-17  Cash on Delivery         Pending   
+
+          City  
+0  Bhubaneswar  
+1      Kolkata  
+2      Kolkata  
+3      Chennai  
+4       Mumbai  
+0, Info, 11/07/2026 23:51:46, 0C8PI8MG, E-Commerce Dataset Cleaning, Data_Cleaning.py, <class 'pandas.DataFrame'>
+RangeIndex: 50000 entries, 0 to 49999
+Data columns (total 11 columns):
+ #   Column           Non-Null Count  Dtype  
+---  ------           --------------  -----  
+ 0   Order ID         50000 non-null  str    
+ 1   Customer ID      49500 non-null  str    
+ 2   Product Name     49820 non-null  str    
+ 3   Category         49780 non-null  str    
+ 4   Quantity         49820 non-null  float64
+ 5   Unit Price       49840 non-null  float64
+ 6   Total Amount     49780 non-null  float64
+ 7   Order Date       49750 non-null  str    
+ 8   Payment Mode     49750 non-null  str    
+ 9   Delivery Status  49800 non-null  str    
+ 10  City             49750 non-null  str    
+dtypes: float64(3), str(8)
+memory usage: 4.2 MB
+
+0, Info, 11/07/2026 23:51:46, 0C8PI8MG, E-Commerce Dataset Cleaning, Data_Cleaning.py, Missing Value Report Before Cleaning:
+                 Missing Values  Missing Percentage
+Order ID                      0                0.00
+Customer ID                 500                1.00
+Product Name                180                0.36
+Category                    220                0.44
+Quantity                    180                0.36
+Unit Price                  160                0.32
+Total Amount                220                0.44
+Order Date                  250                0.50
+Payment Mode                250                0.50
+Delivery Status             200                0.40
+City                        250                0.50
+0, Info, 11/07/2026 23:51:47, 0C8PI8MG, E-Commerce Dataset Cleaning, Data_Cleaning.py, Missing Value Report After Cleaning:
+             Column  Missing Values After Cleaning  \
+0          Order ID                              0   
+1       Customer ID                              0   
+2      Product Name                              0   
+3          Category                              0   
+4          Quantity                            180   
+5        Unit Price                            160   
+6      Total Amount                              0   
+7        Order Date                            250   
+8      Payment Mode                              0   
+9   Delivery Status                              0   
+10             City                              0   
+11   Missing Fields                              0   
+12  Cleaning Status                              0   
+
+    Missing Percentage After Cleaning  
+0                                0.00  
+1                                0.00  
+2                                0.00  
+3                                0.00  
+4                                0.36  
+5                                0.32  
+6                                0.00  
+7                                0.50  
+8                                0.00  
+9                                0.00  
+10                               0.00  
+11                               0.00  
+12                               0.00  
+0, Info, 11/07/2026 23:51:47, 0C8PI8MG, E-Commerce Dataset Cleaning, Data_Cleaning.py, Total Records: 50000
+0, Info, 11/07/2026 23:51:47, 0C8PI8MG, E-Commerce Dataset Cleaning, Data_Cleaning.py, Valid Records: 48730
+0, Info, 11/07/2026 23:51:47, 0C8PI8MG, E-Commerce Dataset Cleaning, Data_Cleaning.py, Invalid Records: 1270
+0, Info, 11/07/2026 23:51:47, 0C8PI8MG, E-Commerce Dataset Cleaning, Data_Cleaning.py, Exact Duplicate Records: 0
+0, Info, 11/07/2026 23:51:47, 0C8PI8MG, E-Commerce Dataset Cleaning, Data_Cleaning.py, Repeated Order ID Records: 0
+0, Info, 11/07/2026 23:51:47, 0C8PI8MG, E-Commerce Dataset Cleaning, Data_Cleaning.py, Validation Error Summary:
+                       Record Count
+Validation Errors                  
+Missing Order Date              250
+Total Amount Mismatch           220
+Invalid Unit Price              220
+Invalid Quantity                180
+Missing Quantity                180
+Missing Unit Price              160
+Invalid Order Date               60
+0, Info, 11/07/2026 23:52:04, 0C8PI8MG, E-Commerce Dataset Cleaning, Data_Cleaning.py, Output Workbook Saved: C:\Sharmila\Data Analyst\Weintern\E-Commerce Sales Data Analyst\Data\Cleaned\Ecommerce_Cleaning_Output.xlsx
+0, Info, 11/07/2026 23:52:04, 0C8PI8MG, E-Commerce Dataset Cleaning, Data_Cleaning.py, Data Cleaning Execution Completed Successfully
