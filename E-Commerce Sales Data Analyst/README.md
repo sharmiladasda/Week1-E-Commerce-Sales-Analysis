@@ -4,7 +4,7 @@
 **Week:** Week 1\
 **Project type:** Data cleaning, exploratory data analysis (EDA), sales
 analysis, and visualization
-**GitHub Profile:** https://github.com/sharmiladasda
+**GitHub Project:** [https://github.com/sharmiladasda](https://github.com/sharmiladasda/Week1-E-Commerce-Sales-Analysis)
 
 ## 1. Project Objective
 
